@@ -1,39 +1,7 @@
 * {
     font-family: open sans;
-    font-size:100%;
+    font-size:101%;
   }
-
-
-header {
-  background-color: #666;
-  padding : 0px 10px;
-  color: white;
-}
-
-
-
-body {
-  background-color: white;
-}
-
-
-
-h1 {
-  color: white;
-  font-size : 150%;
-}
-
-
-
-p {
-  color: white;
-  font-size : 100%;
-}
-
-.section {
-  color: white;
-  font-size : 110%;
-}
 
 
 
@@ -53,7 +21,7 @@ ul.nav {
   padding: 0;
   overflow: hidden;
   background-color: #333333;
-  font-size:150%;
+  font-size:140%;
 }
 
 ul.nav li {
@@ -73,13 +41,38 @@ ul.nav li a:hover:not(.active) {
 }
 
 ul.nav li a.active {
-  background-color: #04AA6D;
+  background-color: #739bd0;
 }
 
 
 
 
 /* page links */
+
+
+/* unvisited link */
+a:link {
+  color: #0e94ab;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: #0e94ab;
+  text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  color: #739bd0;
+  text-decoration: none;
+}
+
+/* selected link */
+a:active {
+  color: #0e94ab;
+  text-decoration: none;
+}
 
 
 
