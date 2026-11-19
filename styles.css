@@ -21,7 +21,7 @@ ul.nav {
   padding: 0;
   overflow: hidden;
   background-color: #333333;
-  font-size:140%;
+  font-size:130%;
 }
 
 ul.nav li {
@@ -78,7 +78,11 @@ a:active {
 
 
 
+/* lists */
 
+ul li {
+  margin: 3px 0;
+}
 
 
 
